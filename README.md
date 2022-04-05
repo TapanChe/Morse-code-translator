@@ -1,5 +1,9 @@
 # Morse Code Translator
 
+<p align="center">
+  Here's the link to the translator <a href="https://tapanche.github.io/Morse-code-translator/" target="_blank">Morse-code-translator</a>
+</p>
+
 This project was a challenge for the Nology developer course. It translates English to Morse Code and vice-versa, this was achieved using an object map method and key-value pairs.
 
 ![Screenshot of translator](./scrnshot-morse.png)
