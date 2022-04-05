@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(
+        90deg,
+        rgb(153, 148, 148) 0%,
+        rgba(255, 165, 0, 1) 0%,
+        rgb(117, 112, 112) 50%,
+        rgb(26, 64, 95) 100%
+    );
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1,
+h2 {
+    color: #14213d;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.Eng-to-Morse {
+    color: aquamarine;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: #14213d 2px solid;
+}
+
+.Morse-To-Eng {
+    color: aquamarine;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#englishInput {
+    color: #64ffda;
+    background-color: #0a192f;
+    border: #a8b2d1 2px solid;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#morseInput {
+    color: #64ffda;
+    background-color: #0a192f;
+    border: #a8b2d1 2px solid;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#morseOutput,
+#englishOutput {
+    font-size: 1rem;
+    font-weight: 800;
+}
+#btnToMorse,
+#btnToEng {
+    align-items: center;
+    font-size: 1rem;
+    background-color: #fde8e8;
+    color: #6b9699;
+    box-shadow: 0 3px #f8b9b9;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 25%;
+    cursor: pointer;
+}
